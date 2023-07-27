@@ -6,10 +6,10 @@ spring:
       max-request-size: 12MB
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mariadb://${ DB_HOST}:3306/team_h
+    url: jdbc:mariadb://${DB_HOST}:3306/team_h
     username: ${DB_USERNAME}
     password: ${DB_PASSWORD}   
-    jdbc-url: jdbc:mariadb://${ DB_HOST}:3306/team_h
+    jdbc-url: jdbc:mariadb://${DB_HOST}:3306/team_h
   mail:
     host : smtp.gmail.com
     port : 587
